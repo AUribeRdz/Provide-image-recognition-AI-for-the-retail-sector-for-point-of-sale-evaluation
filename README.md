@@ -1,19 +1,7 @@
-# Provide-image-recognition-AI-for-the-retail-sector-for-point-of-sale-evaluation
+# Retail image recognition AI — point-of-sale evaluation This solution helps retailers automatically verify that product placement on shelves meets planogram standards, replacing manual store audits with AI-powered image analysis. 
 
-SOLUTION SCOPE
+## What it does - Ingests shelf photographs from retail point-of-sale locations - Classifies images using a fine-tuned Hugging Face pretrained model - Scores each image against defined compliance standards - Outputs a pass/fail report with confidence scores per location 
 
-Provide image recognition (AI) for the retail sector for point-of-sale evaluation.
+## Business value Reduces manual audit costs, catches planogram violations in near-real-time, and feeds compliance data back into merchandising decisions — directly applicable to large-scale retail operations. 
 
-This solution analyzes photographs of shelves to verify that product placement is correct and meets standards (defined scores). Retail Shelve Images are Classified using an AI Hugging Face Pretrained Model.
-
-Solution detects shelf gaps in retail store images, quantify compliance against a predefined scores and evaluate image quality and calculate gap-related metrics.
-
-Solution is used as part of a retail shelf scoring pipeline that computes: Gap Score (50%) Image Quality Score (30%) Gap Density Score (20%) Final Compliance Score = Weighted sum of the above
-
-In summary this Solution:
-
-1) Process a full folder of images.
-2) Run inference using the AI HUGGING FACE YOLO Pretained model for gap detection.
-3) Calculate multiple weighted scores (Gap Score, Image Quality, Gap Density).
-4) Handle potential errors gracefully for any problematic images.
-5) Display clear, organized results for each image and the overall folder summary.
+## Tech stack Python · Hugging Face Transformers · PyTorch · Jupyter Notebook · Image preprocessing pipeline ## Skills demonstrated Computer vision · Transfer learning · Pretrained model integration · Retail AI · Model evaluation
