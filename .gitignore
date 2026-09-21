@@ -1,0 +1,5 @@
+.venv/
+shelve_images/
+diagnostic_output/
+.ipynb_checkpoints/
+__pycache__/
